@@ -1,4 +1,7 @@
 
+# fisrt you need to approve you server ip to access to this service.
+## plaese contact us.
+
 # To send a WhatsApp message
 ```
 from auth import Auth
