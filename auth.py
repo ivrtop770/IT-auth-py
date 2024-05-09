@@ -6,7 +6,7 @@ class Auth:
         self.base_url = "https://auth.ivrtop.co.il/"
 
     def whatsapp(self, phone):
-        class Whatsapp:
+        class WhatsApp:
             def __init__(self, phone, base_url):
                 self.phone = phone
                 self.base_url = base_url
@@ -21,4 +21,4 @@ class Auth:
                 response = requests.post(self.base_url + "whatsapp/" + self.phone, headers=headers, data=data)
                 return response.json()
 
-        return Whatsapp(phone, self.base_url)
+        return WhatsApp(phone, self.base_url)
