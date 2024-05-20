@@ -14,7 +14,6 @@ whatsapp = auth.whatsapp("1234567890")  # Replace "1234567890" with the actual p
 response = whatsapp.send()
 print(response)
 
-
 # Step 2: To verify the code.
 response = whatsapp.verify("1234")  # Replace "1234" with the actual code
 print(response)
@@ -31,8 +30,6 @@ auth = Auth()  # Create an instance of Auth
 call = auth.call("1234567890")  # Replace "1234567890" with the actual phone number
 response = call.send()
 print(response)
-
-
 
 # Step 2: To verify the code
 response = call.verify("1234")  # Replace "1234" with the actual code
